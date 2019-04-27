@@ -8,16 +8,10 @@ mydb = mysql.connector.connect(
   user="root",
   passwd="Test1234#"
 )
-
-print(mydb)
-
 cursor = mydb.cursor()
 
 # execute SQL query using execute() method.
 cursor.execute("SELECT * FROM sakila.actor")
-
-if 5 > 2:
-	print("Five is greater than two!")
 
 # Fetch a single row using fetchone() method.
 data = cursor.fetchone()

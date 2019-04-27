@@ -4,9 +4,9 @@
 import mysql.connector
 
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="mysqldbinst1.cou0izjnusjt.us-east-1.rds.amazonaws.com",
   user="root",
-  passwd="root"
+  passwd="Test1234#"
 )
 
 print(mydb)

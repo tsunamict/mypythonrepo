@@ -22,4 +22,3 @@ while data is not None:
 # disconnect from server
 mydb.close()
 print("done")
-print("done done")
